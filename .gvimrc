@@ -1,9 +1,23 @@
-" Use the Solarized Dark theme
-set background=dark
-colorscheme solarized
-" Use 14pt Monaco
-set guifont=Monaco:h14
-" Don’t blink cursor in normal mode
-set guicursor=n:blinkon0
-" Better line-height
-set linespace=8
+execute pathogen#infect()
+
+syntax on
+
+filetype plugin indent on
+
+colorscheme medic_chalk
+
+set nocompatible
+
+filetype on
+
+filetype plugin on
+
+filetype indent on
+
+syntax on
+
+set number
+
+set cursorline
+
+set cursorcolumn

@@ -1,6 +1,6 @@
 # Dotfiles
 
-![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
+![Screenshot of my shell prompt](/media/iTerm.png)
 
 ## Installation
 

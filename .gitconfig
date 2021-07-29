@@ -127,6 +127,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
+	# See here for Mac GPG Suite https://gpgtools.org/
 	gpgsign = true
 
 [diff]

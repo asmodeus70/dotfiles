@@ -120,3 +120,8 @@ alias tgp='/usr/local/bin/terragrunt plan'
 alias tga='/usr/local/bin/terragrunt apply'
 alias tgo='/usr/local/bin/terragrunt output'
 alias tgd='/usr/local/bin/terragrunt destroy'
+
+# Ansible aliases
+alias ap='/usr/local/bin/ansible-playbook'
+alias av='/usr/local/bin/ansible-vault'
+alias al='/usr/local/bin/ansible-lint'

@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+host=$1
+
+sshpass -f ~/.ssh/hosts/$1 ssh $1

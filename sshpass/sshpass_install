@@ -1,0 +1,5 @@
+#!/bin/bash
+curl -O -L https://ixpeering.dl.sourceforge.net/project/sshpass/sshpass/1.09/sshpass-1.09.tar.gz && tar xvzf sshpass-1.09.tar.gz
+cd sshpass-1.09
+./configure
+sudo make install

@@ -127,4 +127,9 @@ alias av='/usr/local/bin/ansible-vault'
 alias al='/usr/local/bin/ansible-lint'
 
 # Kubernetes aliases
-alias k='/usr/local/bin/kubectl'
+alias k='/usr/local/bin/kubectl'                                         # kubectl alias
+alias kgs='/usr/local/bin/kubectl get services'                          # List all services in the namespace
+alias kgpa='/usr/local/bin/kubectl get pods --all-namespaces'            # List all pods in all namespaces
+alias kgp='/usr/local/bin/kubectl get pods -o wide'                      # List all pods in the current namespace, with more details
+alias kgd='/usr/local/bin/kubectl get deployment'                        # List a particular deployment
+alias kl='/usr/local/bin/kubectl logs'                                   # Get logs for pod

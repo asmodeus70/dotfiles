@@ -125,3 +125,6 @@ alias tgd='/usr/local/bin/terragrunt destroy'
 alias ap='/usr/local/bin/ansible-playbook'
 alias av='/usr/local/bin/ansible-vault'
 alias al='/usr/local/bin/ansible-lint'
+
+# Kubernetes aliases
+alias k='/usr/local/bin/kubectl'

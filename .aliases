@@ -109,11 +109,12 @@ alias rebase='git checkout master && git pull && git checkout - && git rebase -i
 alias squash='git push --force-with-lease'
 
 # aliases for Terragrunt and Terraspace 
-alias tsm='terraspace new module' # New Terraspace module
-alias tsp='terraspace new project' # New Terraspace project
-alias tss='terraspace new stack' # New Terraspace stack
-alias tsu='terraspace up'
-alias tsd='terraspace down'
+alias tsm='bundle exec terraspace new module' # New Terraspace module
+alias tsp='bundle exec terraspace new project' # New Terraspace project
+alias tss='bundle exec terraspace new stack' # New Terraspace stack
+alias tsu='bundle exec terraspace up'
+alias tsd='bundle exec terraspace down'
+alias tsplan='bundle exec terraspace plan'
 alias tg='/usr/local/bin/terragrunt'
 alias tgg='/usr/local/bin/terragrunt get'
 alias tgp='/usr/local/bin/terragrunt plan'

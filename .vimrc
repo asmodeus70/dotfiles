@@ -1,3 +1,9 @@
+set t_Co=256
+
+set encoding=UTF-8
+
+set shell=/bin/zsh
+
 execute pathogen#infect()
 
 syntax on

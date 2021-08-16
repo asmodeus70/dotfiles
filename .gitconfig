@@ -76,6 +76,9 @@
 	# Show most recently changed branches first.
 	sort = -committerdate
 
+    # Delete branch
+    db = !git branch -d
+
 [core]
 
 	# Use custom `.gitignore` and `.gitattributes`.
@@ -181,4 +184,7 @@
 
 [init]
 
-	defaultBranch = main
+	defaultBranch = master
+
+[pull]
+    rebase = false

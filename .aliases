@@ -101,9 +101,11 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # Personal favourite aliases
-alias ls='ls -lhoFG'
+alias ls='exa -lm --color=always'
 alias cat='/usr/local/bin/bat'
 alias histg='history | grep'
+alias tree='/usr/local/bin/as-tree'
+alias dice='/usr/local/bin/diceware' # Create random human readable passwords
 
 # Handy Git aliases
 alias rebase='git checkout master && git pull && git checkout - && git rebase -i master'

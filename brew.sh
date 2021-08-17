@@ -49,7 +49,10 @@ brew install git
 brew install gs
 brew install pv
 brew install ssh-copy-id
-brew install tree
+brew install as-tree
+brew install fd
+brew install exa
+brew install googler
 
 # Install development tools
 brew install packer

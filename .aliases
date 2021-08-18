@@ -104,7 +104,7 @@ alias path='echo -e ${PATH//:/\\n}'
 alias ls='exa -lm --color=always'
 alias cat='/usr/local/bin/bat'
 alias histg='history | grep'
-alias tree='/usr/local/bin/as-tree'
+alias tree='/usr/local/bin/fd | /usr/local/bin/as-tree'
 alias dice='/usr/local/bin/diceware' # Create random human readable passwords
 
 # Handy Git aliases

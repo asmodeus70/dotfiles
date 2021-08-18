@@ -53,6 +53,7 @@ brew install as-tree
 brew install fd
 brew install exa
 brew install googler
+brew install --cask uninstallpkg
 
 # Install development tools
 brew install packer

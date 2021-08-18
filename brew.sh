@@ -54,6 +54,9 @@ brew install fd
 brew install exa
 brew install googler
 brew install --cask uninstallpkg
+brew install --cask iterm2
+brew install --cask itsycal
+brew install --cask jiggler
 
 # Install development tools
 brew install packer

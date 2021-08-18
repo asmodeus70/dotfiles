@@ -64,6 +64,7 @@ brew install awscli
 brew install golang
 brew install bat
 brew install jq
+brew install --cask visual-studio-code
 
 # Remove outdated versions from the cellar.
 brew cleanup

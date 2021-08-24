@@ -106,6 +106,7 @@ alias cat='/usr/local/bin/bat'
 alias histg='history | grep'
 alias tree='/usr/local/bin/fd | /usr/local/bin/as-tree'
 alias dice='/usr/local/bin/diceware' # Create random human readable passwords
+alias grip='/usr/local/bin/grip -b'
 
 # Handy Git aliases
 alias rebase='git checkout master && git pull && git checkout - && git rebase -i master'

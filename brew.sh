@@ -57,6 +57,7 @@ brew install --cask uninstallpkg
 brew install --cask iterm2
 brew install --cask itsycal
 brew install --cask jiggler
+brew install grip
 
 # Install development tools
 brew install packer

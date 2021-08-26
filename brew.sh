@@ -30,7 +30,7 @@ brew install wget --with-iri
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install vim
 brew install grep
 brew install openssh
 brew install screen
@@ -61,9 +61,7 @@ brew install grip # https://github.com/joeyespo/grip
 
 # Install development tools
 brew install packer
-brew install terragrunt
-brew tap boltops-tools/software
-brew install terraspace
+brew install tfenv
 brew install ansible
 brew install awscli
 brew install golang

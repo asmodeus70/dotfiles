@@ -58,6 +58,8 @@ brew install --cask iterm2
 brew install --cask itsycal
 brew install --cask jiggler
 brew install grip # https://github.com/joeyespo/grip
+brew install zoxide
+brew install fzf
 
 # Install development tools
 brew install packer

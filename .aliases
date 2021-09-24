@@ -60,9 +60,7 @@ alias c="tr -d '\n' | pbcopy"
 
 # Recursively delete cache files
 alias cleanup="find . -type f -name '*.DS_Store' -exec rm -rf {} \;"
-alias tgcache="find . -type d -name '.terragrunt-cache' -exec rm -rf {} \;"
 alias tfcache="find . -type d -name '.terraform' -exec rm -rf {} \;"
-alias tscache="find . -type d -name '.terraspace-cache' -exec rm -rf {} \;"
 
 # Empty the bin on all mounted volumes and the main HDD.
 # Also, clear Apple’s System Logs to improve shell startup speed.
@@ -101,31 +99,20 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # Personal favourite aliases
-alias ls='exa -lm --color=always'
+alias ls='ls -lhoFG'
 alias cat='/usr/local/bin/bat'
 alias histg='history | grep'
-alias tree='/usr/local/bin/fd | /usr/local/bin/as-tree'
-alias dice='/usr/local/bin/diceware' # Create random human readable passwords
-alias grip='/usr/local/bin/grip -b'
-alias cd='z'
+alias py3='/usr/local/bin/python3'
 
 # Handy Git aliases
 alias rebase='git checkout master && git pull && git checkout - && git rebase -i master'
 alias squash='git push --force-with-lease'
 
-# aliases for Terragrunt and Terraspace 
-alias tsm='bundle exec terraspace new module' # New Terraspace module
-alias tsp='bundle exec terraspace new project' # New Terraspace project
-alias tss='bundle exec terraspace new stack' # New Terraspace stack
-alias tsu='bundle exec terraspace up'
-alias tsd='bundle exec terraspace down'
-alias tsplan='bundle exec terraspace plan'
-alias tg='/usr/local/bin/terragrunt'
-alias tgg='/usr/local/bin/terragrunt get'
-alias tgp='/usr/local/bin/terragrunt plan'
-alias tga='/usr/local/bin/terragrunt apply'
-alias tgo='/usr/local/bin/terragrunt output'
-alias tgd='/usr/local/bin/terragrunt destroy'
+# aliases for Terraform
+alias tf='terraform'
+alias tfp='terraform plan'
+alias tfa='terraform apply'
+alias tfd='terraform destroy'
 
 # Ansible aliases
 alias ap='/usr/local/bin/ansible-playbook'

@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 
+# Testing gpg
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.

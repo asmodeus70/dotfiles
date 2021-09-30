@@ -61,6 +61,7 @@ brew install --cask jiggler
 brew install grip # https://github.com/joeyespo/grip
 brew install zoxide
 brew install fzf
+brew install procs
 
 # Install development tools
 brew install packer

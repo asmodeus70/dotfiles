@@ -103,6 +103,7 @@ alias ls='ls -lhoFG'
 alias cat='/usr/local/bin/bat'
 alias histg='history | grep'
 alias py3='/usr/local/bin/python3'
+alias ps='/usr/local/bin/procs'
 
 # Handy Git aliases
 alias rebase='git checkout master && git pull && git checkout - && git rebase -i master'
